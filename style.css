@@ -27,10 +27,10 @@
     transform-origin: bottom;
 }
 #hour{
-    width: 2.4%;
-    height: 29%;
-    top: 21%;
-    left: 48.8%;
+   width: 2.4%;
+    height: 25%;
+    top: 23%;
+    left: 48%;
     /* Used to rotate any element by given angle */
     /* transform: rotate(20deg); */
     /* display: none; */
@@ -38,18 +38,19 @@
 
 #minute{
     width: 2.1%;
-    height: 33%;
+    height: 32%;
     top: 17%;
-    left: 48.8%;
+    left: 48%;
     background-color: black;
     opacity: 0.5;
     /* display: none; */
 } 
 #second{
-    width: 2.1%;
-    height: 38%;
-    top: 13%;
+   width: 2.1%;
+    height: 37%;
+    top: 12%;
     left: 48.85%;
     background-color: black;
     opacity: 0.3;
+    /* display: none; */
 } 
