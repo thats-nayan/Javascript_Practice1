@@ -4,7 +4,7 @@
 #clockContainer{
     height: 25vw;
     width: 25vw;
-    background-image: url(/Project5_Analog_Clock/photo_2022-05-30_12-49-37.jpg);
+    background-image: url(photo_2022-05-30_12-49-37.jpg);
     /* To display clock image as background */
     background-repeat: no-repeat;       
     /* So that image does not repeat */
