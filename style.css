@@ -1,0 +1,55 @@
+/* Biggest learnings  */
+/* 1) Position property is very imp  Gets very difficult to debug if misunderstood*/
+
+#clockContainer{
+    height: 25vw;
+    width: 25vw;
+    background-image: url(/Project5_Analog_Clock/photo_2022-05-30_12-49-37.jpg);
+    /* To display clock image as background */
+    background-repeat: no-repeat;       
+    /* So that image does not repeat */
+    background-size: 100%;
+    /* To display full clock */
+    /* border: 3px solid blue; */
+    margin: auto;
+    /* To center clock in x */
+    position: relative;
+    /* To set position of minute second and hour hand relative to this parent container */
+}
+
+#hour,#minute,#second{
+    position: absolute;
+    /* Very imp */
+    /* If we dont set this then all hands of clock will not come at one place */
+    background-color: black;
+    border-radius: 10px;
+    /* Used to set position to rotate  Default value is middle of element */
+    transform-origin: bottom;
+}
+#hour{
+    width: 2.4%;
+    height: 29%;
+    top: 21%;
+    left: 48.8%;
+    /* Used to rotate any element by given angle */
+    /* transform: rotate(20deg); */
+    /* display: none; */
+}
+
+#minute{
+    width: 2.1%;
+    height: 33%;
+    top: 17%;
+    left: 48.8%;
+    background-color: black;
+    opacity: 0.5;
+    /* display: none; */
+} 
+#second{
+    width: 2.1%;
+    height: 38%;
+    top: 13%;
+    left: 48.85%;
+    background-color: black;
+    opacity: 0.3;
+} 
